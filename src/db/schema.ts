@@ -49,3 +49,10 @@ export const verifications = pgTable("verifications", {
   createdAt: timestamp("created_at"),
   updatedAt: timestamp("updated_at"),
 });
+
+export const schema = {
+  users,
+  sessions,
+  accounts,
+  verifications,
+};
